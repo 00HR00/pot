@@ -4,7 +4,9 @@
 
 ## Requirements
 python version = 3.9.7
+
 pytorch version = 1.11.0
+
 We use the NVIDIA A100 80GB to run the program.
 
 
@@ -29,7 +31,7 @@ chmod +x buffer_generation_command.sh
 ```
 Please ensure that your device has adequate storage capacity, as the volume of data generated is substantial.
 
-## Carrying Out the Distillation Process.
+## Carrying Out the Distillation Process
 ### CIFAR-10
 ```
 chmod +x distill_command_cifar10.sh
